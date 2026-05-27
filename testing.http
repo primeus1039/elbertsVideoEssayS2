@@ -1,1 +1,25 @@
 GET http://localhost:8000/
+### ends the request
+
+GET http://localhost:8000/getAllTodo
+###
+
+POST http://localhost:8000/createTodo
+Content-Type: application/json
+
+{
+    "title": "todo list item",
+    "checked": false
+}
+###
+
+DELETE http://localhost:8000/deleteOneTodo/0
+###
+
+PUT http://localhost:8000/updateOneTodo/1
+Content-Type: application/json
+
+{
+    "title":"Updated Todo Item",
+    "checked": true
+}
