@@ -44,6 +44,10 @@ class Datamanager:
             self.saveToFile()
         else:
             print("invalid index")
+    def deleteAllTodo(self):
+        self.cache = []
+        self.saveToFile()   
+        return self.cache
             
     def saveToFile(self):
         with open(self.path, 'w') as file:

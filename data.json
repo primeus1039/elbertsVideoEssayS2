@@ -1,18 +1,1 @@
-[
-    {
-        "title": "todo list item",
-        "checked": false
-    },
-    {
-        "title": "Updated Todo Item",
-        "checked": true
-    },
-    {
-        "title": "todo list item",
-        "checked": false
-    },
-    {
-        "title": "todo list item",
-        "checked": false
-    }
-]
+[]
